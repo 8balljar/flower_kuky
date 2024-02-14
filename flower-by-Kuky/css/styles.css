@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5em; /* Tamaño de fuente reducido para dispositivos móviles */
+    font-family: 'cursive', 'Times New Roman', Times, serif;
+    color: #FFD700;
+    text-align: center;
+    text-shadow: 
+        0 0 5px rgba(255, 215, 0, 0.8), /* Sombra dorada */
+        0 0 10px rgba(255, 215, 0, 0.6), /* Sombra dorada más grande */
+        0 0 15px rgba(255, 215, 0, 0.4), /* Sombra dorada aún más grande */
+        0 0 20px rgba(255, 215, 0, 0.2), /* Sombra dorada más grande aún */
+        0 0 25px rgba(255, 215, 0, 0.1); /* Sombra dorada más grande */
+}
+
+button {
+    font-size: 1.2em; /* Tamaño de fuente reducido para dispositivos móviles */
+    padding: 10px 20px; /* Reducir el espaciado entre el texto y los bordes del botón */
+    background-color: #FFD700;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    text-shadow: 
+        0 0 5px rgba(255, 215, 0, 0.8), /* Sombra dorada */
+        0 0 10px rgba(255, 215, 0, 0.6), /* Sombra dorada más grande */
+        0 0 15px rgba(255, 215, 0, 0.4), /* Sombra dorada aún más grande */
+        0 0 20px rgba(255, 215, 0, 0.2), /* Sombra dorada más grande aún */
+        0 0 25px rgba(255, 215, 0, 0.1); /* Sombra dorada más grande */
+}
+
+button:hover {
+    background-color: #FFB600;
+}
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Tamaño de fuente aún más reducido para dispositivos móviles */
+    }
+
+    button {
+        font-size: 1em; /* Tamaño de fuente aún más reducido para dispositivos móviles */
+        padding: 8px 16px; /* Reducir aún más el espaciado entre el texto y los bordes del botón */
+        margin-top: 10px; /* Espacio superior reducido para dispositivos móviles */
+    }
+}
+
